@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color:gold;
+    background: maroon;
+    font-size: 1.5em;
+    text-align: center;
+    
+    
+}
+h2{
+    color: maroon;
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 15%;
+}
+p{
+   color: black;
+   font-size: 0.7em;
+   text-align: justify;           
+}

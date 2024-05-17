@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*configuração universal da pagina*/
+*{
+    /*height: 100%;*/
+    font-size: "arial, helvetica, sans-serif" ;
+}
+body{
+    background-image: linear-gradient(to right, #0378A6,#05DBF2);
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #015c80b9;
+}
+h1{
+    color: #0378A6;
+    text-align: center;
+    text-shadow: 1px 1px 3px #015c80b9;
+}
+h2{
+    color: #05DBF2;
+    text-shadow: 0,3px 0,3px 3px #05aff297;
+    
+}
+p{
+    text-align: justify;
+}

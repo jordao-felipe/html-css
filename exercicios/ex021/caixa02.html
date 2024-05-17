@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        nav{
+            background-color: rgb(159, 159, 159);
+            padding: 3px;
+            box-shadow:  5px 5px 7px 2px rgba(0, 0, 0, 0.5);
+                    
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 15px;
+            box-shadow: 9px 11px 7px rgba(0, 0, 0, 0.5);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 2px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article > aside{
+            background-color: rgb(159, 159, 159);
+            padding: 0px;
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 1px;
+        }
+        #circulo{
+            background-color: red;
+            height: 50px;
+            width: 50px;
+            margin: auto;
+            margin-top: 20px;                  
+            border-radius: 50%;
+                       
+        }
+        #circulo1{
+            background-color: yellow;
+            height: 50px;
+            width: 50px;
+            margin: auto;
+            margin-top: 10px;            
+            border-radius: 50%;            
+        }#circulo2{
+            background-color: green;
+            height: 50px;
+            width: 50px;
+            margin: auto;
+            margin-top: 10px;             
+            border-radius: 50%;            
+        }
+        #sinal{
+            background-color: black;
+            height: 170px;
+            width: 70px;                  
+            margin-top: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Política e Tecnologia. </p>
+        </section>
+        <section id="noticias">
+                <article>
+                  <h2>noticias do Brasil</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, autem? Inventore aliquid modi, voluptatem magnam soluta quam fugiat suscipit nemo possimus culpa! Veniam, ex molestias? Necessitatibus in iure consectetur dolor?</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva.</p>
+                    </aside>
+                </article>
+            <article>
+
+            </article>            
+        </section>
+    </main>
+    <footer>
+    <p>Desenvolvido por curso em video. </p>
+    </footer>
+        <div id="sinal">
+            <div id="circulo">
+            </div>
+            <div id="circulo1">
+            </div>
+            <div id="circulo2">
+            </div>
+        </div>
+</body>
+</html>
