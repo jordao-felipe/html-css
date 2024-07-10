@@ -8,7 +8,7 @@
   
 }
 body, html{
-    background-color: black
+    background-color: lightgray;
 }
 header{
     background-color: #C2281E;
@@ -18,15 +18,16 @@ header > h1{
     text-align: center;
 }
 span#burger{
-    background-color: white;
+    background-color:black;
+    color: white;
     display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 span#burger:hover{
-    background-color: black;
-    color:white
+    background-color:white;
+    color: black;
 }
 menu{
     display: none;
@@ -51,7 +52,7 @@ menu > ul > li > a:hover{
     transition: 0.5s;
 }
 main{
-    width: 70vh;
+    width: 90vw;
     background-color: white;
     margin: auto;
     padding: 10px;
@@ -63,7 +64,7 @@ main{
 article > h2{
     padding-bottom: 20px;
 }
-article > h3{
+article > h3{    
     padding-bottom: 20px;
 }
 article > p{
